@@ -1,0 +1,26 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[RequireComponent(typeof(Rigidbody))]
+public class Controller : MonoBehaviour
+{
+    public float _speed = 1f;
+
+    private Rigidbody _rigidbody;
+
+    void Start()
+    {
+        _rigidbody = GetComponent<Rigidbody>();
+    }
+
+    void FixedUpdate()
+    {
+        if (_rigidbody.velocity.magnitude < _speed)
+        {
+            float value = Input.GetAxis("Vertical");
+            if (value != 0)
+                _rigidbody.AddForce(0, 0, value * Time.fixedDeltaTime * 1000f);
+        }
+    }
+}
