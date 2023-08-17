@@ -198,7 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85a9119c5cef343dab42cd5494d472f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementVector: {x: 10, y: 10, z: 10}
+  movementVector: {x: 10, y: 10, z: 50}
   period: 2
 --- !u!1 &664333550 stripped
 GameObject:
@@ -405,7 +405,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 116.92827
+      value: 118.95231
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
@@ -415,12 +415,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.51005
+      value: 15.100358
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.5501258
+      value: -0.9796364
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
@@ -430,7 +430,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.8350819
+      value: 0.20077991
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
@@ -445,7 +445,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -246.75099
+      value: -383.165
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
@@ -475,22 +475,22 @@ PrefabInstance:
     - target: {fileID: -3562668523736392720, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.691703
+      value: 0.9999564
       objectReference: {fileID: 0}
     - target: {fileID: -3562668523736392720, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0021148026
+      value: 0.008650392
       objectReference: {fileID: 0}
     - target: {fileID: -3562668523736392720, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.011001214
+      value: -0.0033428036
       objectReference: {fileID: 0}
     - target: {fileID: -3562668523736392720, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.72209525
+      value: -0.0010839324
       objectReference: {fileID: 0}
     - target: {fileID: -3562668523736392720, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
@@ -525,22 +525,22 @@ PrefabInstance:
     - target: {fileID: -2796047398640556745, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7064602
+      value: -0.6267763
       objectReference: {fileID: 0}
     - target: {fileID: -2796047398640556745, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.7017272
+      value: -0.7791991
       objectReference: {fileID: 0}
     - target: {fileID: -2796047398640556745, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.064945176
+      value: 0.00036373103
       objectReference: {fileID: 0}
     - target: {fileID: -2796047398640556745, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.06538463
+      value: -0.0002915438
       objectReference: {fileID: 0}
     - target: {fileID: -2796047398640556745, guid: 3ff7868c111a7490eb4d7efccf3a44a0,
         type: 3}
